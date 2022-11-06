@@ -8,6 +8,7 @@
 /web/core/
 /.env
 /web/modules/contrib
+/web/themes/contrib
 /.editorconfig
 /.gitattributes
 /web/.csslintrc
