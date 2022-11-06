@@ -1,0 +1,26 @@
+name: diploma
+recipe: drupal9
+config:
+  webroot: web
+  php: '8.1'
+  composer_version: 2-latest
+  via: apache
+  database: mysql
+  drush: ^8
+  xdebug: true
+services:
+  appserver:
+    build:
+      - composer install
+  node:
+    type: node
+    build:
+      - npm install
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
+  gulp:
+    service: node
+    cmd: cd $LANDO_MOUNT && web/themes/custom/diploma_theme && ../../../../node_modules/.bin/gulp

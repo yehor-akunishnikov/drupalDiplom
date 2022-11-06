@@ -1,0 +1,16 @@
+/.idea
+/vendor/
+/node_modules/
+/web/sites/*/settings*.php
+/web/sites/*/services*.yml
+/web/sites/*/files/
+/web/sites/*/private/
+/web/core/
+/.env
+/web/modules/contrib
+/.editorconfig
+/.gitattributes
+/web/.csslintrc
+/web/.eslintignore
+/web/.htaccess
+/web/example.gitignore
