@@ -2,7 +2,7 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: 6d47d5ac-d285-4bdd-94c5-27112c1e7a67
-name: 'Drush Site-Install'
+name: 'Student management system'
 mail: admin@example.com
 slogan: ''
 page:

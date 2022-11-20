@@ -1,0 +1,20 @@
+uuid: 95fb39bf-e31f-4efe-95a4-0b19d2a79725
+langcode: en
+status: true
+dependencies:
+  theme:
+    - diploma_theme
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: diploma_theme_primary_admin_actions
+theme: diploma_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

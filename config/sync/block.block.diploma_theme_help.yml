@@ -1,0 +1,22 @@
+uuid: f8e62cec-e2e1-4f17-babc-83e0d4ff1202
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - diploma_theme
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: diploma_theme_help
+theme: diploma_theme
+region: top_header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

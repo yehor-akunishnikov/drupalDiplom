@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Bootstrap Barrio Subtheme.
+
+diploma_theme.settings:
+  type: diploma_theme.settings
+  label: 'Diploma settings'

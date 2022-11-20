@@ -1,0 +1,22 @@
+uuid: dc3235c9-1547-4e9a-b042-08962911a219
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - diploma_theme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: diploma_theme_content
+theme: diploma_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 41ed7e33-5c4a-4d6d-82bd-e256b33530aa
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - diploma_theme
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: diploma_theme_syndicate
+theme: diploma_theme
+region: top_header
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

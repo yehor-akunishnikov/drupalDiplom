@@ -1,0 +1,23 @@
+uuid: b51008aa-b4a6-49a0-b760-7fbe4e469562
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - diploma_theme
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: diploma_theme_search_form_narrow
+theme: diploma_theme
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
