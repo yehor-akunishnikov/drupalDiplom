@@ -23,4 +23,4 @@ tooling:
     service: node
   gulp:
     service: node
-    cmd: cd $LANDO_MOUNT && web/themes/custom/diploma_theme && ../../../../node_modules/.bin/gulp
+    cmd: cd web/themes/custom/diploma_theme && ../../../../node_modules/.bin/gulp
