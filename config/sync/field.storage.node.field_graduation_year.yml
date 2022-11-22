@@ -1,0 +1,20 @@
+uuid: cc4188b6-86e8-407d-a33b-95ae9666d2bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_graduation_year
+field_name: field_graduation_year
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

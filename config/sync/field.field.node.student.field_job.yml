@@ -1,0 +1,19 @@
+uuid: 624b6171-378e-480c-a8e1-43d3d8cd5ddf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job
+    - node.type.student
+id: node.student.field_job
+field_name: field_job
+entity_type: node
+bundle: student
+label: Job
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

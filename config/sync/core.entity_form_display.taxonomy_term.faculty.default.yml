@@ -1,0 +1,29 @@
+uuid: 89f19e2d-ef19-484a-a66d-6b748a1f023a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.faculty
+id: taxonomy_term.faculty.default
+targetEntityType: taxonomy_term
+bundle: faculty
+mode: default
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 1
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  description: true
+  path: true

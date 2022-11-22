@@ -1,0 +1,23 @@
+uuid: 0c6f2c22-c27b-417b-854b-c94811a0deee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.student
+  module:
+    - text
+id: node.student.body
+field_name: body
+entity_type: node
+bundle: student
+label: 'Student  Characteristic'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

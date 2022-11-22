@@ -1,0 +1,25 @@
+uuid: 9d4bff16-1abb-4197-b11e-1482cbd0add2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_graduation_year
+    - node.type.student
+id: node.student.field_graduation_year
+field_name: field_graduation_year
+entity_type: node
+bundle: student
+label: 'Graduation year'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 2022
+default_value_callback: ''
+settings:
+  min: 2010
+  max: 3000
+  prefix: ''
+  suffix: ''
+field_type: integer

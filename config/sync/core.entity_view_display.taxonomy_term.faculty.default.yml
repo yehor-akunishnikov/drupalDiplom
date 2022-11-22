@@ -1,0 +1,13 @@
+uuid: fd5f7a06-670f-4b08-a914-0beaf288b2e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.faculty
+id: taxonomy_term.faculty.default
+targetEntityType: taxonomy_term
+bundle: faculty
+mode: default
+content: {  }
+hidden:
+  description: true

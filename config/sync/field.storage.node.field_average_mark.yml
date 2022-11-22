@@ -1,0 +1,18 @@
+uuid: c5855ecb-2ec2-4146-87c9-f5fc24b133cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_average_mark
+field_name: field_average_mark
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: da26c12e-57c4-46a0-8bb0-9e12d3835ff5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact
+    - node.type.student
+id: node.student.field_contact
+field_name: field_contact
+entity_type: node
+bundle: student
+label: Contact
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

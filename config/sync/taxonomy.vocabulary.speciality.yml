@@ -1,0 +1,8 @@
+uuid: 68607ba7-2d6c-4b73-b8c3-c92808b6d8b5
+langcode: en
+status: true
+dependencies: {  }
+name: Speciality
+vid: speciality
+description: ''
+weight: 0

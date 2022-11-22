@@ -1,0 +1,46 @@
+uuid: 748a8181-816e-4b10-be57-d094d160c9c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.student.body
+    - field.field.node.student.field_average_mark
+    - field.field.node.student.field_contact
+    - field.field.node.student.field_faculty
+    - field.field.node.student.field_graduation_year
+    - field.field.node.student.field_job
+    - field.field.node.student.field_photo
+    - field.field.node.student.field_science_projects
+    - field.field.node.student.field_speciality
+    - node.type.student
+  module:
+    - text
+    - user
+id: node.student.teaser
+targetEntityType: node
+bundle: student
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_average_mark: true
+  field_contact: true
+  field_faculty: true
+  field_graduation_year: true
+  field_job: true
+  field_photo: true
+  field_science_projects: true
+  field_speciality: true

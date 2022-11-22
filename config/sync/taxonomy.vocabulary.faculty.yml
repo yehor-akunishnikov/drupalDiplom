@@ -1,0 +1,8 @@
+uuid: a9efefc7-b3f5-444e-9787-40e3fd3ac77a
+langcode: en
+status: true
+dependencies: {  }
+name: Faculty
+vid: faculty
+description: 'List of faculties'
+weight: 0
