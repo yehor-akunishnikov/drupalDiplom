@@ -22,7 +22,8 @@
         "drupal/core-recommended": "^9.4",
         "drupal/default_content": "^2.0@alpha",
         "drupal/pathauto": "^1.11",
-        "drush/drush": "^11.3"
+        "drush/drush": "^11.3",
+        "phpoffice/phpspreadsheet": "^1.25"
     },
     "conflict": {
         "drupal/drupal": "*"
