@@ -1,0 +1,22 @@
+uuid: debffb80-6926-45ee-acbe-38500cf3389d
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - myoverriden
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: myoverriden_help
+theme: myoverriden
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

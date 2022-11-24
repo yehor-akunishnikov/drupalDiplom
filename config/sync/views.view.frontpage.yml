@@ -493,7 +493,7 @@ display:
               field: field_graduation_year
               rendered: true
               rendered_strip: false
-          columns: 4
+          columns: 2
           automatic_width: true
           alignment: horizontal
           row_class_custom: ''

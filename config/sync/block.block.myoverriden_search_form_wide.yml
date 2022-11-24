@@ -1,0 +1,23 @@
+uuid: aec57fc8-3e2c-4163-b1df-88ac5dd6c40a
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - myoverriden
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: myoverriden_search_form_wide
+theme: myoverriden
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

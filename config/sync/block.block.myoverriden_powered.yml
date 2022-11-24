@@ -1,0 +1,22 @@
+uuid: d35b84a6-bcf6-4c39-8db6-91156f45a17a
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - myoverriden
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: myoverriden_powered
+theme: myoverriden
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Система управління базами даних випускників'
+  label_display: visible
+  provider: system
+visibility: {  }

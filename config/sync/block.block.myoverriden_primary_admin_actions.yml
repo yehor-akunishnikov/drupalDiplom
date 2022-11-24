@@ -1,0 +1,20 @@
+uuid: e9d10cd7-ebff-4755-b37b-9947abfe64c5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - myoverriden
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: myoverriden_primary_admin_actions
+theme: myoverriden
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

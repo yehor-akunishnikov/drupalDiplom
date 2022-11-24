@@ -1,0 +1,23 @@
+uuid: ca7ae9ac-6462-41dd-9d4b-7c176ed056e9
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - myoverriden
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: myoverriden_syndicate
+theme: myoverriden
+region: header
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }
